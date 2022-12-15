@@ -28,7 +28,7 @@ const Server = class Server {
             'server': {
                 'port': 3000,
                 'routes': [ 'polygon', 'binance', 'fantom' ],
-                'publicFolder': './1-metaverse/public',
+                'publicFolder': './public',
             },
             'websocket': {
                 'intervalInMs': 1000,
