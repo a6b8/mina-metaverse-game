@@ -39,11 +39,10 @@ The goal is to give the users a receipt for thier earned points. Important is to
 
 ...
 
-## Verfify
+## Verify
 - user create a transaction with `id`, `points`, `signature` and `seed`. `seed` is a random generated number from the server to anonymized the `id`.
 - After successfully sending the proof a event get emitted. 
-- A event listener wait listen to address: `B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1` and wait for known `seed` numbers.
-
+- A event listener, listen to address: `B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1` and wait for known `seed` numbers.
 
 <br>
 
@@ -53,7 +52,6 @@ The goal is to give the users a receipt for thier earned points. Important is to
 
 1. Demo
 > https://jellyfish-app-iig6c.ondigitalocean.app/?x=-216&y=30&z=-40
-
 
 
 <a href="#headline">
