@@ -1,1 +1,1 @@
-"web: node ./1-metaverse/index.js heroku"
+"web: node index.js heroku"
