@@ -600,7 +600,7 @@ Everyone interacting in the AsciiToSvg project's codebases, issue trackers, chat
 <img href="#table-of-contents" src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/star-us.svg" height="45px" name="star-us" alt="Star us">
 </a>
 
-Please ⭐️ star this Project, every ⭐️ star makes us very happy!
+Please ⭐️ star this Project, every ⭐️ star makes us very happy! 
 
 
 
