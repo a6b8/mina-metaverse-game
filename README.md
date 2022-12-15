@@ -1,5 +1,5 @@
 <a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/mina-zk-ignite-cohort-0.svg" height="45px" alt="Proof-of-playing" name="# Proof-of-playing">
+<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/mina-zk-ignite-cohort-0.svg" height="45px" alt="Proof of playing" name="# Proof of playing">
 </a>
 
 *This repo contains*
@@ -591,6 +591,10 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/a6b8/e
 EasyMina is based on the examples of jackryanservia
 - jackryanservia/oracle-example https://github.com/jackryanservia/oracle-example
 - jackryanservia/mina-credit-score-signer https://github.com/jackryanservia/mina-credit-score-signer
+
+3D Metaverse is based on covalent template:
+- https://replit.com/@a6b8/PlanetMetaverse#script.js
+
 
 <br>
 
