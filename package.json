@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js heroku",
+    "start": "node index.js heroku --omit=dev",
     "main": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
