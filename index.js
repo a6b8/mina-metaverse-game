@@ -12,9 +12,3 @@ async function main() {
 main()
     .then( a => '' )
     .catch( e => console.log( e ) )
-
-
-
-
-
-    
