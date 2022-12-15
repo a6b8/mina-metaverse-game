@@ -230,7 +230,7 @@ class WalletMina {
            // alert( 'Copied your signature to your clipboard')
             // window.open( receipt, '_blank' )
 
-            download(str, 'looki-looki-beta-tester.json', 'text/json')
+            download( str, 'beta-tester-2022-12.json', 'text/json' )
 
 
         } catch( e ) {
@@ -1283,7 +1283,7 @@ class GuiInterface {
     constructor( ) {
         this.config = {
             'close': true,
-            'show': true
+            'show': false
         }
 
         this.gui = new dat.GUI()
@@ -1911,11 +1911,11 @@ const Metaverse = class Metaverse {
             },
             'controls': {
                 'helper': {
-                    'show': true
+                    'show': false
                 },
                 'gui': {
                     'query': '.dg .c input[type="checkbox"]',
-                    'show': true
+                    'show': false
                 },
                 'joystick': {
                     'maxSteerVal': 0.05,
