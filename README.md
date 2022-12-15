@@ -2,6 +2,9 @@
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/mina-zk-ignite-cohort-0.svg" height="45px" alt="Proof of playing" name="# Proof of playing">
 </a>
 
+<img src="https://github.com/a6b8/a6b8/blob/main/assets/additional/mina-zk-ignite-cohort-0/screenshot.png?raw=true" width="600px">
+
+
 *This repo contains*
 - Backend Server (express.js)
 - Rest Api (mina signature, standings...)  
@@ -27,6 +30,8 @@ https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts fork of https://
 This submission shows a possible usecase for off-chain oracles in games with zero knowledge proofs. 
 
 The goal is to give the users a receipt for thier earned points. Important is to not disturb the game with loading.
+
+<img src="https://github.com/a6b8/a6b8/blob/main/assets/additional/mina-zk-ignite-cohort-0/looki-looki.png?raw=true" height="200px">
 
 ## Claim a proof-of-playing:
 - the user set a name
