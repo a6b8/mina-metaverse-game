@@ -583,9 +583,7 @@ EasyMina is based on the examples of jackryanservia
 <a href="#table-of-contents">
 <img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/default/license.svg" height="45px" alt="License" name="license">
 </a>
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+s
 <br>
 
 <a href="#table-of-contents">
