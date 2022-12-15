@@ -12,9 +12,9 @@
 *Additional*  
 https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts fork of https://github.com/a6b8/easy-mina-for-nodejs
 
-- Mina Smart Contract
-- Berkeley Event Listener (Contract, Transaction)
-- Verification
+- [Mina Smart Contract](https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts/blob/main/contracts/Oracle.ts)
+- [Berkeley Event Listener](https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts/blob/97973c4c502402944ad3155136264351ad29807e/src/oracle/Listen.js#L43) (Contract, Transaction)
+- [Verification](https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts/blob/97973c4c502402944ad3155136264351ad29807e/src/oracle/Verify.js#L15)
   
 
 *Addresses*
@@ -28,7 +28,7 @@ This submission shows a possible usecase for off-chain oracles in games with zer
 
 The goal is to give the users a receipt for thier earned points. Important is to not disturb the game with loading.
 
-Claim a proof-of-playing:
+## Claim a proof-of-playing:
 - the user set a name
 - if `auro wallet` is detected the users will be forced to connect the wallet.
 - games begins and the users try to catch sprites and earn points
@@ -39,7 +39,7 @@ Claim a proof-of-playing:
 
 ...
 
-Verfify
+## Verfify
 - user create a transaction with `id`, `points`, `signature` and `seed`. `seed` is a random generated number from the server to anonymized the `id`.
 - After successfully sending the proof a event get emitted. 
 - A event listener wait listen to address: `B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1` and wait for known `seed` numbers.
