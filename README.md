@@ -3,31 +3,47 @@
 </a>
 
 *This repo contains*
-- Backend Server (express)
-- Rest Api (mina signature)  
+- Backend Server (express.js)
+- Rest Api (mina signature, standings...)  
   /getStandings, /challenge/* (get, post)
 - Websocket provider
 - 3D Frontend (three.js)
 
-*Mina Smart Contract and Tooling*
-- https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts fork of https://github.com/a6b8/easy-mina-for-nodejs
+*Additional*  
+https://github.com/a6b8/mina-zk-ignite-cohort-0-smart-contracts fork of https://github.com/a6b8/easy-mina-for-nodejs
 
-*Mina Blockchain*
-- Contract: https://berkeley.minaexplorer.com/wallet/B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1
+- Mina Smart Contract
+- Berkeley Event Listener (Contract, Transaction)
+- Verification
+  
+
+*Addresses*
+- Oracle Contract: https://berkeley.minaexplorer.com/wallet/B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1
+
+- Server Public Key: https://berkeley.minaexplorer.com/wallet/B62qprKedzhbxRB8Udab7MNs2UfPHpeRntDKropyxFjKe7SQV3ZTwcG 
+
 
 
 This submission shows a possible usecase for off-chain oracles in games with zero knowledge proofs. 
 
 The goal is to give the users a receipt for thier earned points. Important is to not disturb the game with loading.
 
-Procedure:
+Claim a proof-of-playing:
 - the user set a name
 - if `auro wallet` is detected the users will be forced to connect the wallet.
 - games begins and the users try to catch sprites and earn points
-- if the user has 10 points and `auro wallet` installed the `auro wallet` pops up.
+- if the user has `10 points` and `auro wallet` installed the `auro wallet` pops up.
 - the users get informed that´s eligable for a `proof-of-playing`.
 - After signing the message, the browser requests a mina signature from the server.
 - After receiving the signature, automatically get downloaded as a textfile.
+
+...
+
+Verfify
+- user create a transaction with `id`, `points`, `signature` and `seed`. `seed` is a random generated number from the server to anonymized the `id`.
+- After successfully sending the proof a event get emitted. 
+- A event listener wait listen to address: `B62qiUdy93cmB9rcQjie2Zo8TwHDiZnmEmJejiXVb2dEADyez2QW6M1` and wait for known `seed` numbers.
+
 
 <br>
 
