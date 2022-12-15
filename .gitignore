@@ -1,0 +1,7 @@
+
+node_modules
+public/assets/
+public/font/
+public/template/
+.env
+.mina
