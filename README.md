@@ -1,6 +1,6 @@
 # Proof-of-playing
 
-<a src="https://youtu.be/Kh8_1TYyv1k">
+<a href="https://youtu.be/Kh8_1TYyv1k">
     <img src="https://img.youtube.com/vi/Kh8_1TYyv1k/0.jpg">
 </a>
 
