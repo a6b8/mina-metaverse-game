@@ -1,10 +1,12 @@
-<a href="#table-of-contents">
-<img src="https://raw.githubusercontent.com/a6b8/a6b8/main/assets/headlines/custom/mina-zk-ignite-cohort-0.svg" height="45px" alt="Proof of playing" name="# Proof of playing">
+# Proof-of-playing
+
+<a src="https://youtu.be/Kh8_1TYyv1k">
+    <img src="https://img.youtube.com/vi/Kh8_1TYyv1k/0.jpg">
 </a>
 
-<img src="https://github.com/a6b8/a6b8/blob/main/assets/additional/mina-zk-ignite-cohort-0/screenshot.png?raw=true" width="600px">
-
-
+> Youtube walk-through  
+> https://youtu.be/Kh8_1TYyv1k
+ 
 *This repo contains*
 - Backend Server (express.js)
 - Rest Api (mina signature, standings...)  
